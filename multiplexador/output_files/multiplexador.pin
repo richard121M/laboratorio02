@@ -256,8 +256,8 @@ GND*                         : B7        :        :                   :         
 GND*                         : B8        :        :                   :         : 3         :                
 GND*                         : B9        :        :                   :         : 3         :                
 GND*                         : B10       :        :                   :         : 3         :                
-S                            : B11       : output : 3.3-V LVTTL       :         : 3         : N              
-Sel                          : B12       : input  : 3.3-V LVTTL       :         : 3         : N              
+Sel                          : B11       : input  : 3.3-V LVTTL       :         : 3         : N              
+Sc                           : B12       : output : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : B13       :        :                   :         : 4         :                
 GND*                         : B14       :        :                   :         : 4         :                
 GND*                         : B15       :        :                   :         : 4         :                
@@ -283,7 +283,7 @@ GND*                         : C8        :        :                   :         
 GND*                         : C9        :        :                   :         : 3         :                
 GND*                         : C10       :        :                   :         : 3         :                
 GND*                         : C11       :        :                   :         : 3         :                
-GND*                         : C12       :        :                   :         : 3         :                
+Sp                           : C12       : output : 3.3-V LVTTL       :         : 3         : N              
 B                            : C13       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND                          : C14       : gnd    :                   :         :           :                
 GND*                         : C15       :        :                   :         : 4         :                

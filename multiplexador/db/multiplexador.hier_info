@@ -1,14 +1,26 @@
 |multiplexador
 A => Mux2x1com:m21com.i0
+A => Mux2x1por:m21por.i0
 B => Mux2x1com:m21com.i1
+B => Mux2x1por:m21por.i1
 Sel => Mux2x1com:m21com.s0
-S <= Mux2x1com:m21com.saida
+Sel => Mux2x1por:m21por.s0
+Sc <= Mux2x1com:m21com.saida
+Sp <= Mux2x1por:m21por.saida
 
 
 |multiplexador|Mux2x1com:m21com
 i0 => saida.DATAB
 i1 => saida.DATAA
 s0 => saida.OUTPUTSELECT
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|multiplexador|Mux2x1por:m21por
+i0 => saida.IN0
+i1 => saida.IN0
+s0 => saida.IN1
+s0 => saida.IN1
 saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
 
 

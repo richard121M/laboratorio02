@@ -1,4 +1,4 @@
-Fitter Status : Successful - Wed Nov 11 09:04:18 2026
+Fitter Status : Successful - Wed Nov 11 09:25:23 2026
 Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition
 Revision Name : multiplexador
 Top-level Entity Name : multiplexador
@@ -9,7 +9,7 @@ Total logic elements : 1 / 33,216 ( < 1 % )
     Total combinational functions : 1 / 33,216 ( < 1 % )
     Dedicated logic registers : 0 / 33,216 ( 0 % )
 Total registers : 0
-Total pins : 4 / 475 ( < 1 % )
+Total pins : 5 / 475 ( 1 % )
 Total virtual pins : 0
 Total memory bits : 0 / 483,840 ( 0 % )
 Embedded Multiplier 9-bit elements : 0 / 70 ( 0 % )

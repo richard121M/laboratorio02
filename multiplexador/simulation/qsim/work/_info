@@ -4,78 +4,78 @@ K3
 cModel Technology
 Z0 dC:\Users\Usuario\Documents\sd\multiplexador\simulation\qsim
 vmultiplexador
-Z1 ITMNJHNRKQjG:>63Vh6Ye02
-Z2 VCXNe[AW@6QD^9dQWH[1G=2
-Z3 dC:\Users\Usuario\Documents\sd\multiplexador\simulation\qsim
-Z4 w1794397144
-Z5 8multiplexador.vo
-Z6 Fmultiplexador.vo
+Z1 !s100 RXkCBdLX;PaBeB6dYJ>;23
+Z2 IVM77NnH^oV>3LV:I3G34;3
+Z3 VYk>L?@2Ba1ZFcmGbU`m8B2
+Z4 dC:\Users\Usuario\Documents\sd\multiplexador\simulation\qsim
+Z5 w1794400252
+Z6 8multiplexador.vo
+Z7 Fmultiplexador.vo
 L0 31
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
+Z9 !s90 -work|work|multiplexador.vo|
+Z10 o-work work -O0
 !i10b 1
-Z9 !s100 ela0YHYO4?gf8ADnlzi:E3
 !s85 0
-Z10 !s108 1794397147.968000
-Z11 !s107 multiplexador.vo|
-Z12 !s90 -work|work|multiplexador.vo|
+Z11 !s108 1794400253.360000
+Z12 !s107 multiplexador.vo|
 !s101 -O0
 vmultiplexador_vlg_check_tst
 !i10b 1
-!s100 EI<RD8L<bPo`;@h15AZek3
-IIIBBaRKU;DL8T5nW<=0mn0
-Vioh;<LAc0nWmDSW5zWNbT2
-R3
-Z13 w1794397142
-Z14 8multiplexador.vt
-Z15 Fmultiplexador.vt
-L0 57
-R7
+Z13 !s100 fS]PWnPMKo^Ih3o[<[XXT2
+Z14 Ik:O@?UfA514Vi0;5NNTI[0
+Z15 VI614W8Abnd>ifMHjH][T41
+R4
+Z16 w1794400250
+Z17 8multiplexador.vt
+Z18 Fmultiplexador.vt
+L0 61
+R8
 r1
 !s85 0
 31
-Z16 !s108 1794397148.249000
-Z17 !s107 multiplexador.vt|
-Z18 !s90 -work|work|multiplexador.vt|
+Z19 !s108 1794400253.510000
+Z20 !s107 multiplexador.vt|
+Z21 !s90 -work|work|multiplexador.vt|
 !s101 -O0
-R8
+R10
 vmultiplexador_vlg_sample_tst
 !i10b 1
-!s100 4g>5M8JZIT31_FNcCzg[63
-IlYZL28i=FW_6IMFA5Zb1_0
-V5KOh1IO]<=?PVhEBXLThn3
-R3
-R13
-R14
-R15
-L0 29
-R7
-r1
-!s85 0
-31
+Z22 !s100 >k4C@T9IMO@kfe4:TQ_WG3
+Z23 IGako:]_l8@U[UCj10RTW@0
+Z24 VeN=`l^h4zd<7M>XJ[OAC@2
+R4
 R16
 R17
 R18
-!s101 -O0
+L0 29
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
 vmultiplexador_vlg_vec_tst
 !i10b 1
-!s100 9[WNg^g>IEAk1KmQUmFo@1
-I0KQbdME9nBLONN1F>K<^X1
-VW0?z^n0nDYkc7?1?=:8Ui1
-R3
-R13
-R14
-R15
-L0 152
-R7
-r1
-!s85 0
-31
+Z25 !s100 if6G8fWSWh7dQoX7A[TmT1
+Z26 IVb8LF45^7gbJlK_;`RQzF1
+Z27 VW0?z^n0nDYkc7?1?=:8Ui1
+R4
 R16
 R17
 R18
-!s101 -O0
+Z28 L0 183
 R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
