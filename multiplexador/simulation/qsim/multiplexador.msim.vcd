@@ -3,7 +3,7 @@ $comment
 		vcd file multiplexador.msim.vcd -direction
 $end
 $date
-	Wed Nov 11 09:30:54 2026
+	Wed Nov 11 11:20:59 2026
 $end
 $version
 	ModelSim Version 10.1d
@@ -14,21 +14,30 @@ $end
 $scope module multiplexador_vlg_vec_tst $end
 $var reg 1 ! A $end
 $var reg 1 " B $end
-$var reg 1 # Sel $end
-$var wire 1 $ Sc $end
-$var wire 1 % Sp $end
-$var wire 1 & sampler $end
+$var reg 1 # C $end
+$var reg 1 $ D $end
+$var reg 1 % Se0 $end
+$var reg 1 & Se1 $end
+$var wire 1 ' S4 $end
+$var wire 1 ( Sc $end
+$var wire 1 ) Sp $end
+$var wire 1 * sampler $end
 $scope module i1 $end
-$var wire 1 ' gnd $end
-$var wire 1 ( vcc $end
-$var wire 1 ) unknown $end
-$var tri1 1 * devclrn $end
-$var tri1 1 + devpor $end
-$var tri1 1 , devoe $end
-$var wire 1 - B~combout $end
-$var wire 1 . Sel~combout $end
-$var wire 1 / A~combout $end
-$var wire 1 0 m21com|saida~0_combout $end
+$var wire 1 + gnd $end
+$var wire 1 , vcc $end
+$var wire 1 - unknown $end
+$var tri1 1 . devclrn $end
+$var tri1 1 / devpor $end
+$var tri1 1 0 devoe $end
+$var wire 1 1 B~combout $end
+$var wire 1 2 Se0~combout $end
+$var wire 1 3 A~combout $end
+$var wire 1 4 m21com|saida~0_combout $end
+$var wire 1 5 Se1~combout $end
+$var wire 1 6 C~combout $end
+$var wire 1 7 m41por|mux03|saida~0_combout $end
+$var wire 1 8 D~combout $end
+$var wire 1 9 m41por|mux03|saida~1_combout $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -36,91 +45,92 @@ $enddefinitions $end
 $dumpvars
 0!
 0"
-0#
-0$
+x#
+x$
 0%
 x&
 0'
-1(
-x)
-1*
-1+
+0(
+0)
+x*
+0+
 1,
-0-
-0.
-0/
-00
+x-
+1.
+1/
+10
+01
+02
+03
+04
+x5
+x6
+07
+x8
+09
 $end
-#30000
-1#
-1.
-0&
-#50000
-0#
-0.
-1&
+#20000
+1%
+12
+0*
+x7
+x9
+x'
+#40000
+1!
+0%
+13
+02
+1*
+14
+1)
+1(
 #60000
-1!
-1/
-0&
-10
 1%
-1$
+12
+0*
+04
+0)
+0(
 #80000
-1#
-1.
-1&
-00
+1"
+0!
 0%
-0$
+11
+03
+02
+1*
+07
 #100000
-0!
-0#
-0/
-0.
-0&
-#110000
-1"
-1-
-1&
-#130000
-1#
-1.
-0&
-10
 1%
-1$
-#150000
-0"
-0#
-0-
-0.
-1&
-00
-0%
-0$
-#160000
+12
+0*
+x7
+14
+1)
+1(
+#120000
 1!
-1"
-1/
-1-
-0&
-10
-1%
-1$
-#180000
-1#
-1.
-1&
-#200000
-0!
-0"
-0#
-0/
-0-
-0.
-0&
-00
 0%
-0$
+13
+02
+1*
+#140000
+1%
+12
+0*
+#160000
+0"
+0!
+0%
+01
+03
+02
+1*
+04
+07
+09
+0)
+0(
+0'
 #1000000

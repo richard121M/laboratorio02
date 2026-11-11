@@ -1,12 +1,19 @@
 |multiplexador
 A => Mux2x1com:m21com.i0
 A => Mux2x1por:m21por.i0
+A => Mux4x1por:m41por.i0
 B => Mux2x1com:m21com.i1
 B => Mux2x1por:m21por.i1
-Sel => Mux2x1com:m21com.s0
-Sel => Mux2x1por:m21por.s0
+B => Mux4x1por:m41por.i1
+C => Mux4x1por:m41por.i2
+D => Mux4x1por:m41por.i3
+Se0 => Mux2x1com:m21com.s0
+Se0 => Mux2x1por:m21por.s0
+Se0 => Mux4x1por:m41por.s0
+Se1 => Mux4x1por:m41por.s1
 Sc <= Mux2x1com:m21com.saida
 Sp <= Mux2x1por:m21por.saida
+S4 <= Mux4x1por:m41por.saida
 
 
 |multiplexador|Mux2x1com:m21com
@@ -17,6 +24,41 @@ saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |multiplexador|Mux2x1por:m21por
+i0 => saida.IN0
+i1 => saida.IN0
+s0 => saida.IN1
+s0 => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|multiplexador|Mux4x1por:m41por
+i0 => Mux2x1por:mux01.i0
+i1 => Mux2x1por:mux01.i1
+i2 => Mux2x1por:mux02.i0
+i3 => Mux2x1por:mux02.i1
+s0 => Mux2x1por:mux03.s0
+s1 => Mux2x1por:mux01.s0
+s1 => Mux2x1por:mux02.s0
+saida <= Mux2x1por:mux03.saida
+
+
+|multiplexador|Mux4x1por:m41por|Mux2x1por:mux01
+i0 => saida.IN0
+i1 => saida.IN0
+s0 => saida.IN1
+s0 => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|multiplexador|Mux4x1por:m41por|Mux2x1por:mux02
+i0 => saida.IN0
+i1 => saida.IN0
+s0 => saida.IN1
+s0 => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|multiplexador|Mux4x1por:m41por|Mux2x1por:mux03
 i0 => saida.IN0
 i1 => saida.IN0
 s0 => saida.IN1

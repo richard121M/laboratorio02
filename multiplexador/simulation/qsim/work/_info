@@ -4,11 +4,11 @@ K3
 cModel Technology
 Z0 dC:\Users\Usuario\Documents\sd\multiplexador\simulation\qsim
 vmultiplexador
-Z1 !s100 RXkCBdLX;PaBeB6dYJ>;23
-Z2 IVM77NnH^oV>3LV:I3G34;3
-Z3 VYk>L?@2Ba1ZFcmGbU`m8B2
+Z1 !s100 IS<`c7`;_@g[jFc6UCRSU0
+Z2 IedhJYW;A;oOh@=][eY?[`0
+Z3 Vz[o9@n6B19J4U87;GiA6E2
 Z4 dC:\Users\Usuario\Documents\sd\multiplexador\simulation\qsim
-Z5 w1794400252
+Z5 w1794406857
 Z6 8multiplexador.vo
 Z7 Fmultiplexador.vo
 L0 31
@@ -19,63 +19,63 @@ Z9 !s90 -work|work|multiplexador.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1794400253.360000
+Z11 !s108 1794406858.716000
 Z12 !s107 multiplexador.vo|
 !s101 -O0
 vmultiplexador_vlg_check_tst
 !i10b 1
-Z13 !s100 fS]PWnPMKo^Ih3o[<[XXT2
-Z14 Ik:O@?UfA514Vi0;5NNTI[0
-Z15 VI614W8Abnd>ifMHjH][T41
+!s100 95mDz:Y_I8HlX2BEFfC572
+IJlCTQ4L=^1:JU<Z@hH1Zc2
+Z13 Vgn07hRaC0o^VUIALU7_RG2
 R4
-Z16 w1794400250
-Z17 8multiplexador.vt
-Z18 Fmultiplexador.vt
-L0 61
+Z14 w1794406856
+Z15 8multiplexador.vt
+Z16 Fmultiplexador.vt
+L0 67
 R8
 r1
 !s85 0
 31
-Z19 !s108 1794400253.510000
-Z20 !s107 multiplexador.vt|
-Z21 !s90 -work|work|multiplexador.vt|
+Z17 !s108 1794406858.864000
+Z18 !s107 multiplexador.vt|
+Z19 !s90 -work|work|multiplexador.vt|
 !s101 -O0
 R10
 vmultiplexador_vlg_sample_tst
 !i10b 1
-Z22 !s100 >k4C@T9IMO@kfe4:TQ_WG3
-Z23 IGako:]_l8@U[UCj10RTW@0
-Z24 VeN=`l^h4zd<7M>XJ[OAC@2
+Z20 !s100 7H?zYm7Ygc_c;IIge=5861
+Z21 Ieh38Z9I3SH9>8d9`Y05Yh3
+Z22 Vc23;[C`^dV_DILVF;E>=P2
 R4
+R14
+R15
 R16
-R17
-R18
 L0 29
 R8
 r1
 !s85 0
 31
+R17
+R18
 R19
-R20
-R21
 !s101 -O0
 R10
 vmultiplexador_vlg_vec_tst
 !i10b 1
-Z25 !s100 if6G8fWSWh7dQoX7A[TmT1
-Z26 IVb8LF45^7gbJlK_;`RQzF1
-Z27 VW0?z^n0nDYkc7?1?=:8Ui1
+!s100 iU8ol^`i^c0?7V<BWC<?A2
+IU0VZH1`3dOnc1AIb1@IG[1
+Z23 VW0?z^n0nDYkc7?1?=:8Ui1
 R4
+R14
+R15
 R16
-R17
-R18
-Z28 L0 183
+L0 194
 R8
 r1
 !s85 0
 31
+R17
+R18
 R19
-R20
-R21
 !s101 -O0
 R10

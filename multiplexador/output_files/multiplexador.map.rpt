@@ -1,5 +1,5 @@
 Analysis & Synthesis report for multiplexador
-Wed Nov 11 09:25:13 2026
+Wed Nov 11 11:00:15 2026
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -41,16 +41,16 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Nov 11 09:25:13 2026           ;
+; Analysis & Synthesis Status        ; Successful - Wed Nov 11 11:00:14 2026           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; multiplexador                                   ;
 ; Top-level Entity Name              ; multiplexador                                   ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 1                                               ;
-;     Total combinational functions  ; 1                                               ;
+; Total logic elements               ; 3                                               ;
+;     Total combinational functions  ; 3                                               ;
 ;     Dedicated logic registers      ; 0                                               ;
 ; Total registers                    ; 0                                               ;
-; Total pins                         ; 5                                               ;
+; Total pins                         ; 9                                               ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 0                                               ;
 ; Embedded Multiplier 9-bit elements ; 0                                               ;
@@ -162,6 +162,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; multiplexador.vhd                ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/sd/multiplexador/multiplexador.vhd ;         ;
 ; mux2x1com.vhd                    ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/sd/multiplexador/mux2x1com.vhd     ;         ;
 ; Mux2x1por.vhd                    ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/sd/multiplexador/Mux2x1por.vhd     ;         ;
+; Mux4x1por.vhd                    ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/sd/multiplexador/Mux4x1por.vhd     ;         ;
 +----------------------------------+-----------------+-----------------+---------------------------------------------------------------+---------+
 
 
@@ -170,39 +171,41 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+--------------------------+
 ; Resource                                    ; Usage                    ;
 +---------------------------------------------+--------------------------+
-; Estimated Total logic elements              ; 1                        ;
+; Estimated Total logic elements              ; 3                        ;
 ;                                             ;                          ;
-; Total combinational functions               ; 1                        ;
+; Total combinational functions               ; 3                        ;
 ; Logic element usage by number of LUT inputs ;                          ;
-;     -- 4 input functions                    ; 0                        ;
+;     -- 4 input functions                    ; 2                        ;
 ;     -- 3 input functions                    ; 1                        ;
 ;     -- <=2 input functions                  ; 0                        ;
 ;                                             ;                          ;
 ; Logic elements by mode                      ;                          ;
-;     -- normal mode                          ; 1                        ;
+;     -- normal mode                          ; 3                        ;
 ;     -- arithmetic mode                      ; 0                        ;
 ;                                             ;                          ;
 ; Total registers                             ; 0                        ;
 ;     -- Dedicated logic registers            ; 0                        ;
 ;     -- I/O registers                        ; 0                        ;
 ;                                             ;                          ;
-; I/O pins                                    ; 5                        ;
+; I/O pins                                    ; 9                        ;
 ; Embedded Multiplier 9-bit elements          ; 0                        ;
 ; Maximum fan-out node                        ; Mux2x1com:m21com|saida~0 ;
 ; Maximum fan-out                             ; 2                        ;
-; Total fan-out                               ; 5                        ;
-; Average fan-out                             ; 0.83                     ;
+; Total fan-out                               ; 14                       ;
+; Average fan-out                             ; 1.17                     ;
 +---------------------------------------------+--------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                     ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name             ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------+--------------+
-; |multiplexador             ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 5    ; 0            ; |multiplexador                  ; work         ;
-;    |Mux2x1com:m21com|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multiplexador|Mux2x1com:m21com ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                     ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                             ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+--------------+
+; |multiplexador             ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 9    ; 0            ; |multiplexador                                  ; work         ;
+;    |Mux2x1com:m21com|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multiplexador|Mux2x1com:m21com                 ; work         ;
+;    |Mux4x1por:m41por|      ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multiplexador|Mux4x1por:m41por                 ; work         ;
+;       |Mux2x1por:mux03|    ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |multiplexador|Mux4x1por:m41por|Mux2x1por:mux03 ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -236,7 +239,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Nov 11 09:25:10 2026
+    Info: Processing started: Wed Nov 11 11:00:12 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off multiplexador -c multiplexador
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file multiplexador.vhd
@@ -248,19 +251,23 @@ Info (12021): Found 2 design units, including 1 entities, in source file mux2x1c
 Info (12021): Found 2 design units, including 1 entities, in source file mux2x1por.vhd
     Info (12022): Found design unit 1: Mux2x1por-behav
     Info (12023): Found entity 1: Mux2x1por
+Info (12021): Found 2 design units, including 1 entities, in source file mux4x1por.vhd
+    Info (12022): Found design unit 1: Mux4x1por-behav
+    Info (12023): Found entity 1: Mux4x1por
 Info (12127): Elaborating entity "multiplexador" for the top level hierarchy
 Info (12128): Elaborating entity "Mux2x1com" for hierarchy "Mux2x1com:m21com"
 Info (12128): Elaborating entity "Mux2x1por" for hierarchy "Mux2x1por:m21por"
+Info (12128): Elaborating entity "Mux4x1por" for hierarchy "Mux4x1por:m41por"
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 6 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 3 input pins
-    Info (21059): Implemented 2 output pins
-    Info (21061): Implemented 1 logic cells
+Info (21057): Implemented 12 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 6 input pins
+    Info (21059): Implemented 3 output pins
+    Info (21061): Implemented 3 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4625 megabytes
-    Info: Processing ended: Wed Nov 11 09:25:13 2026
+    Info: Peak virtual memory: 4634 megabytes
+    Info: Processing ended: Wed Nov 11 11:00:15 2026
     Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
 
 
