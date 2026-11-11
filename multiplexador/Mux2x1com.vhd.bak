@@ -1,0 +1,9 @@
+ENTITY Mux2x1com IS
+PORT(in1,in2,in3 : IN BIT;
+saida : OUT BIT);
+END Mux2x1com;
+	
+ARCHITECTURE behav OF Mux2x1com IS
+BEGIN
+saida <= in1 and in2 and in3;
+END ARCHITECTURE behav;
